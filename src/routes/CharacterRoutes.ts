@@ -1,5 +1,6 @@
 import { Router, Request, Response } from "express";
-import Character, { Job } from "../models/Character.ts";
+import Character from "../models/Character.ts";
+import type { Job } from "../models/Character.ts";
 import CharacterService from "../services/CharacterService.ts";
 
 const router = Router();

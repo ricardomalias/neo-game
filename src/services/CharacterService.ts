@@ -1,4 +1,4 @@
-import Character from "../models/Character";
+import Character from "../models/Character.ts";
 
 class CharacterService {
     private characters: Map<string, Character>;
